@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles for minimal design */
+.card, .panel {
+    box-shadow: none !important;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Global styles for clean, minimalist design */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Remove shadows from cards and panels */
+.card, .panel, .bg-white {
+    box-shadow: none !important;
+}
+
+/* Button hover effects */
+.btn, button, .button {
+    transition: all 0.15s ease-in-out;
+}
+
+.btn:hover, button:hover, .button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* High contrast text */
+.text-primary {
+    color: #000000;
+}
+
+.text-secondary {
+    color: #6b6b6b;
+}
+
+/* Clean borders */
+.border {
+    border-color: #e0e0e0;
+}
+
+/* Typography weights */
+.font-regular {
+    font-weight: 400;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
